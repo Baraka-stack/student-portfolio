@@ -164,7 +164,7 @@ if page == "Home":
     st.title("🏠 Welcome to My Portfolio")
     
     # Fixed Profile Picture
-    
+    st.markdown('<div class="profile-container">', unsafe_allow_html=True)
     # Use a default profile image path - replace with your actual image path
     profile_image_path = "profile.jpg"  # You'll need to place this image in the same directory as your script
     
